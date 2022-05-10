@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #505050;
+}
+
+.wrapper {
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+header,
+.left_sidebar, 
+.right_sidebar, 
+.content, 
+.form {
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+
+.logo{
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.search {
+    max-width: 30%;
+    margin: 40px 30px 0px auto;
+}
+
+.delete,
+.reload {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+}
+.reload{
+    top: 10px;
+}
+
+.right_sidebar,
+.left_sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 10%;
+}
+
+.left_sidebar img,
+.right_sidebar img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.left_sidebar .selected {
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+.brick {
+    height: 4vw;
+    width: 90%;
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+}
+
+.content {
+    width: 70%;
+    margin: 0px 2%;
+    padding: 10px;
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.form {
+    background-color: #88ff89;
+    width: 40%;
+    position: absolute;
+    top: 90%;
+    left: -10%;
+    padding: 10px;
+    font-family: arial;
+    font-size: 1vw;
+}
+
+.form span.big {
+    font-family: Times;
+    font-size: 2vw;
+}
+
+.form span.shadow {
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+.form span.italic {
+    font-style: italic;
+}
+
+.form input {
+    width: 70%;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+}
+
+.form button {
+    border: 1px solid #a8a4a5;
+    border-radius: 1px;
+    font-size: 1vw;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4eff3), to(#dcdcdc));
+}
+
+.ikea {
+    position: absolute;
+    top: 58%;
+    left: 35%;
+    height: 10vw;
+    width: 4vw;
+    z-index: 10;
+}
+  
+.apple {
+    position: absolute;
+    top: 58%;
+    right: 4%;
+    height: 7vw;
+    width: 10vw;
+    z-index: 10;
+}
+
+.apple:hover,
+.ikea:hover{
+    border: 1px solid #000;
+}

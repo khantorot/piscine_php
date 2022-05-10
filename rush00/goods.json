@@ -1,0 +1,20 @@
+{
+	"1" : {
+	  "name" : "Яблоки",
+	  "cost" : 12,
+	  "description" : "Яблоки спелые, очень красивые",
+	  "image" : "images/apple.png"
+	},
+	"2" : {
+	  "name" : "Лимоны",
+	  "cost" : 16,
+	  "description" : "Желтые лимоны, классные",
+	  "image" : "images/lemon.png"
+	},
+	"3" : {
+	  "name" : "Клубника",
+	  "cost" : 22,
+	  "description" : "Спелая и сочная клубника",
+	  "image" : "images/strawberry.png"
+	}
+  }

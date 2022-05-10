@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #000;
+	padding: 30px;
+}
+
+h1{
+	font-size: 5vw;
+	text-align: center;
+	color: #c4c4c4;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 60px;
+}
+
+p{
+    font-size: 1vw;
+}
+
+.mass{
+    text-align:right;
+}
+
+td{
+	padding: 2px;
+	transition: 0.2s;
+}
+
+td:hover{
+	background: #000;
+	color: #fff;
+	transform: scale(1.4);
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+	font-size: 1.8vw;
+}
+
+table{
+	width:100%;
+	outline: none;
+}
+
+.diatomic {
+	background-color: #d7f872;
+}
+
+.noble-gas {
+	background-color: #508fe4;
+}
+
+.alkali-metal {
+	background-color: #ef4c4c;
+}
+
+.alkaline-earth {
+	background-color: #d3dc60;
+}
+
+.metalloid {
+	background-color: #919460;
+}
+
+.polyatomic {
+	background-color: #8bf8ac;
+}
+
+.transition {
+	background-color: #fa907f;
+}
+
+.post-transition {
+	background-color: #b0b0b0;
+}
+
+.lanthanide {
+	background-color: #ec77a3;
+}
+
+.actinide {
+	background-color: #ea408e;
+}
+
+.unknown {
+	background-color: #898989;
+}
+
+footer{
+	background: url('https://www.avensonline.org/blog/wp-content/uploads/2015/09/chemistry-and-its-applications2.jpg');
+	width: 100%;
+	height: 200px;
+	background-size: 20%;
+	background-position: bottom;
+	background-repeat: repeat-x;
+	opacity: 0.2;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
